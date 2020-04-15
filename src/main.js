@@ -14,6 +14,7 @@ new Vue({
   router,
   store,
   render: h => h(App),
+  // 预渲染配置
   mounted(){
     document.dispatchEvent(new Event('render-event'))
   }
